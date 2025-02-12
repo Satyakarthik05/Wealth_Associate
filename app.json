@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "wealth_Associate",
-    "slug": "wealth_Associate",
+    "slug": "wealthassociate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.satyakarthik.wealthassociate"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a7b41893-8484-4ca0-aef0-a61ae92fe285"
+      }
+    },
+    "owner": "satyakarthik"
   }
 }
